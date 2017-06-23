@@ -5,6 +5,8 @@ node_js:
 
 cache:
   ccache: true
+  directories:
+    - node_modules
 
 services:
   - docker
