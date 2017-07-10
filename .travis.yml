@@ -5,6 +5,10 @@ node_js:
 
 cache:
   ccache: true
+  directories:
+    - $HOME/.cache/electron
+    - $HOME/.cache/electron-builder
+    - $HOME/.npm/_prebuilds
 
 services:
   - docker
