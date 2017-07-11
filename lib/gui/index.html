@@ -32,25 +32,23 @@
 
     <footer class="section-footer" ng-controller="StateController as state"
       ng-hide="state.currentName === 'success'">
-      <span os-open-external="https://etcher.io?ref=etcher_footer">
-        <svg-icon path="'../assets/etcher.svg'"
-          width="'83px'"
-          height="'13px'"></svg-icon>
+
+      <div style="position:absolute;top: -50px;left: 160px;">
+        <svg-icon path="'../assets/kerberosio.svg'" width="'150px'"
+        height="'150px'" os-open-external="https://kerberos.io"></svg-icon>
+      </div>
+      <span class="caption" style="margin-left: 130px;">
+       <span class="caption" os-open-external="https://github.com/kerberos-io/etcher">FORKED </span> FROM
       </span>
 
-      <span class="caption">
-        is <span class="caption" os-open-external="https://github.com/resin-io/etcher">an open source project</span> by
-      </span>
-
-      <span os-open-external="https://resin.io?ref=etcher">
-        <svg-icon path="'../assets/resin.svg'"
-          width="'79px'"
-          height="'23px'"></svg-icon>
-      </span>
+      <svg-icon path="'../assets/etcher.svg'"
+        width="'83px'"
+        height="'13px'"
+        os-open-external="http://etcher.io"></svg-icon>
 
       <span class="caption footer-right"
         manifest-bind="version"
-        os-open-external="https://github.com/resin-io/etcher/blob/master/CHANGELOG.md"></span>
+        os-open-external="https://github.com/kerberos-io/etcher/blob/master/CHANGELOG.md"></span>
     </footer>
 
     <div class="section-loader"

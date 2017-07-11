@@ -5964,10 +5964,10 @@ button.close {
  * limitations under the License.
  */
 html {
-  background-color: #535760; }
+  background-color: #943633; }
 
 body {
-  background-color: #535760; }
+  background-color: #943633; }
 
 .checkbox input[type="checkbox"] {
   position: initial;
@@ -6045,7 +6045,7 @@ body {
   padding: 8px 25px; }
 
 .label-inset {
-  background-color: #3b3e45;
+  background-color: #6e2826;
   color: #919191; }
 
 .label-danger {
@@ -6122,8 +6122,8 @@ body {
     top: 2px;
     margin-right: 2px; }
   .button[disabled], [disabled].progress-button {
-    background-color: #313339;
-    color: #787c7f; }
+    background-color: #943633;
+    color: #fff; }
 
 .button-block {
   display: block;
@@ -6145,12 +6145,12 @@ body {
 .button-primary, .progress-button,
 .button-primary:focus,
 .progress-button:focus {
-  background-color: #5793db;
+  background-color: #AB423F;
   color: #fff;
   outline: none; }
 
 .button-primary:hover, .progress-button:hover {
-  background-color: #2d78d2;
+  background-color: #863431;
   color: #fff; }
 
 .button-danger,
@@ -6240,7 +6240,7 @@ body {
   max-height: 250px;
   overflow: auto; }
   .modal-body a {
-    color: #5793db; }
+    color: #AB423F; }
   .modal-body > p {
     white-space: pre-line; }
   .modal-body > p:last-child {
@@ -6267,7 +6267,7 @@ body {
   align-items: center; }
   .modal .button[disabled], .modal [disabled].progress-button {
     background-color: #d5d5d5;
-    color: #787c7f; }
+    color: #fff; }
 
 .modal-dialog {
   margin: 0;
@@ -6482,13 +6482,13 @@ svg-icon {
   margin-top: 75px; }
 
 svg-icon > div[disabled] path {
-  fill: #787c7f; }
+  fill: #fff; }
 
 .page-main .step-selection-text {
   color: #fff; }
 
 .page-main .text-disabled > span {
-  color: #787c7f; }
+  color: #fff; }
 
 .page-main .relative {
   position: relative; }
@@ -6503,7 +6503,7 @@ svg-icon > div[disabled] path {
   width: 124px;
   top: 19px; }
   .page-main [disabled].step-border-left, .page-main [disabled].step-border-right {
-    background-color: #787c7f; }
+    background-color: #fff; }
 
 .page-main .step-border-left {
   left: -67px; }
@@ -6514,13 +6514,13 @@ svg-icon > div[disabled] path {
 .page-main .step-tooltip {
   display: block;
   margin: -5px auto -20px;
-  color: #787c7f;
+  color: #fff;
   font-size: 10px; }
 
 .page-main .step-footer {
   margin-top: 10px;
   margin-bottom: -40px;
-  color: #787c7f;
+  color: #fff;
   font-size: 10px; }
 
 .page-main .step-footer-split {
@@ -6536,7 +6536,7 @@ svg-icon > div[disabled] path {
 
 .page-main .button.step-footer, .page-main .step-footer.progress-button {
   font-size: 12px;
-  color: #5793db;
+  color: #AB423F;
   border-radius: 0;
   padding: 0; }
 
@@ -6548,7 +6548,7 @@ svg-icon > div[disabled] path {
   color: #fff; }
 
 .page-main .step-size {
-  color: #787c7f; }
+  color: #fff; }
 
 /*
  * Copyright 2016 resin.io
@@ -6649,7 +6649,7 @@ svg-icon > div[disabled] path {
   position: absolute;
   top: 125px;
   left: 0;
-  background-color: #535760;
+  background-color: #943633;
   color: #fff;
   font-weight: 300; }
   .page-finish .fallback-banner .caption {
@@ -6681,10 +6681,9 @@ body {
   bottom: 20px;
   left: 0;
   right: 0;
-  color: #787c7f;
+  color: #fff;
   margin: 0 60px;
   padding-top: 15px;
-  border-top: 2px solid #64686a;
   text-align: center; }
   .section-footer .col-xs {
     padding: 0; }
@@ -6694,7 +6693,7 @@ body {
     border-bottom: 1px dashed;
     padding-bottom: 2px; }
     .section-footer .caption[os-open-external]:hover {
-      color: #85898c; }
+      color: white; }
   .section-footer .footer-right {
     font-size: 10px;
     position: absolute;
