@@ -52,10 +52,9 @@ if [ "$ARGV_OPERATING_SYSTEM" == "linux" ]; then
 else
   if [ "$ARGV_OPERATING_SYSTEM" == "darwin" ]; then
     ./scripts/build/check-dependency.sh brew
-    brew install ccache jq
+    brew install ccache jq --force-bottle
   elif [ "$ARGV_OPERATING_SYSTEM" == "win32" ]; then
     ./scripts/build/check-dependency.sh choco
-    choco install nsis -version 2.51
     choco install jq
     choco install curl
   else
@@ -69,8 +68,7 @@ else
 
   npm config set spin=false
   npm config set progress=false
-  npm install -g --silent uglify-es@3.0.3 > /dev/null
-  pip install -r requirements.txt
+  pip install --quiet -r requirements.txt
 
   make info
   make electron-develop
